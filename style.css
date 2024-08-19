@@ -90,6 +90,16 @@ nav button{
     font-size: 15px;
     margin-top: 15px;
 }
+.globalBtn{
+    background: #000;
+    cursor: pointer;
+    color:#fff;
+    border: none;
+    border-radius: 8px;
+    padding: 8px 18px;
+    font-size: 15px;
+    margin-top: 15px;
+}
 .center-part-2{
     height: 100%;
     width: 60%;
@@ -212,4 +222,84 @@ nav button{
 .black h4 i {
     background: #fff;
     color: #000;
+}
+.section3{
+    padding:20px 60px;
+    
+}
+
+.section3 .container{
+    padding: 40px 40px;
+    margin-top: 40px;
+    background: #cccccc50;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 350px;
+    border-radius: 15px;
+    border:3px solid #ccc;
+    box-shadow: 0px 10px 0px #ccc;
+}
+.container .rgt{
+    width: 60%;
+}
+.container .rgt h2{
+    font-size: 3vw;
+    line-height:5vw;
+    letter-spacing: 2px;
+}
+
+.caseStudy{
+    padding: 20px 20px;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    gap: 25px;
+    margin-top: 90px;
+}
+.caseStudy h2{
+    background-color: #9ae975;
+    font-weight: 900;
+    padding: 3px 10px 3px 10px;
+    font-family: china;
+    border-radius: 5px;
+    font-size: 2vw;
+}
+.caseStudy p{
+    width: 40%;
+    font-size: 13px;
+}
+footer{
+    padding:20px 60px;
+    /* height: 400px; */
+}
+#outer{
+    background: #000;
+    color: #fff;
+    /* height: 350px; */
+    border-radius: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding: 40px 40px;
+    gap: 50px;
+}
+.ftrelems p{
+    font-size: 13x;
+    margin-bottom:15px;
+}
+.ftrelems a{
+    text-decoration: none;
+    color: #9ae975;
+    padding-top: 50px;
+}
+#cntrone{
+    border-left:1px solid white;
+    border-right:1px solid white;
+    padding-left: 25px;
+}
+#ftrP{
+    text-align: center;
+    margin-top: 15px;
+    margin-bottom: -10px;
 }

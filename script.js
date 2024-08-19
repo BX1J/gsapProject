@@ -1,8 +1,9 @@
-page1Animation();
-page2Animation();
+sec1Animation();
+sec2Animation();
+sec3Animation();
+ftrAnimation();
 
-
-function page1Animation(){
+function sec1Animation(){
     var tl = gsap.timeline();
 
 tl.from("nav h1,nav h4, nav button", {
@@ -44,7 +45,7 @@ tl.from(".section1btm img",{
 })
 };
 
-function page2Animation(){
+function sec2Animation(){
     
 var tl2 = gsap.timeline({
     scrollTrigger:{
@@ -88,4 +89,67 @@ tl2.from(".elem.line2.right",{
     duration:5,
     delay:0.8,
 },"anim2");
+};
+
+function sec3Animation(){
+    var tl3 = gsap.timeline({
+        scrollTrigger:{
+            trigger:".section3",
+            scroller:"body",
+            start:"top 50%",
+            end:"top 10%",
+            scrub:2,
+        }
+    });
+    
+    tl3.from(".section3 .container",{
+        opacity:0,
+    });
+    
+    tl3.from(".section3 .container .rgt",{
+        x:-500,
+        opacity:0,
+        duration:3,
+    },"themBoth");
+    
+    tl3.from(".section3 .container .lft",{
+        x:500,
+        opacity:0,
+        duration:3,
+    },"themBoth");
+    
+    tl3.from(".section3 .caseStudy",{
+        y:500,
+        opcity:0,
+    })
+};
+
+function ftrAnimation(){
+    
+var tl = gsap.timeline({
+    scrollTrigger:{
+        trigger:"footer",
+        scroller:"body",
+        start:"top 70%",
+        end:"top 56%",
+        scrub:2,
+    }
+});
+tl.from("footer", {
+    scale: 1.6, 
+    duration: 4, 
+  });
+tl.from("footer #rgtone",{
+    x:-500,
+},"theseOnes");
+tl.from("footer #lftone",{
+    x:500,
+},"theseOnes");
+tl.from("#cntrone",{
+    opacity:0,
+},"theseOnes");
+tl.from("footer #ftrP",{
+    opacity:0,
+    scale:0.5,
+});
 }
