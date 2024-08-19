@@ -1,0 +1,215 @@
+@font-face {
+    font-family: china;
+    src: url(./NeueMachina-Light_gwWCZxVuQl.ttf);
+}
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+    font-family: poppins;
+}
+body,html{
+    width: 100%;
+    height: 100%;
+}
+body{
+    overflow-x: hidden;
+}
+section{
+    height: 100%;
+    width: 100%;
+    position: relative;
+}
+
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px 60px;
+}
+.part2{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 50px;
+}
+
+nav h1{
+    font-size: 30px;
+}
+nav h1 i{
+    rotate: 45deg;
+    font-size: 2.5vw;
+    display: inline-block;
+}
+
+nav h4{
+    font-size: 15px;
+    font-weight: 500;
+}
+
+nav button{
+    padding: 15px 30px;
+    font-size: 18px;
+    border-radius: 10px;
+    border: 1px solid black;
+    cursor: pointer;
+    background-color: transparent;
+}
+
+.center{
+    padding: 20px 60px;
+    height: 80%;
+    width: 100%;
+    display: flex;
+}
+
+.center-part-1{
+    height: 100%;
+    width: 40%;
+}
+
+.center .center-part-1 h1{
+    font-size: 50px;
+    font-family: china;
+    line-height: 1.2;    
+}
+.center-part-1 p{
+    font-size: 15px;
+    width: 95%;
+    margin-top: 25px;
+}
+
+.center-part-1 button{
+    background: #000;
+    cursor: pointer;
+    color:#fff;
+    border: none;
+    border-radius: 8px;
+    padding: 8px 18px;
+    font-size: 15px;
+    margin-top: 15px;
+}
+.center-part-2{
+    height: 100%;
+    width: 60%;
+    position: relative;
+}
+.center-part-2 img{
+    position: absolute;
+    right:0;
+    height: 100%;
+}
+
+.section1btm{
+    position: absolute;
+    bottom: 0;
+    left: 60px;
+    right: 60px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 20%;
+}
+.section1btm img{
+    display: flex;
+    align-items: center;
+    justify-self: space-between;
+    justify-content: space-between;
+    padding: 10px 30px;
+    height: 60px;
+}
+.section2 .services{
+    padding: 20px 80px;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    gap: 25px;
+    margin-top: 90px;
+}
+.services h2{
+    background-color: #9ae975;
+    font-weight: 900;
+    padding: 3px 10px 3px 10px;
+    font-family: china;
+    border-radius: 5px;
+    font-size: 2vw;
+}
+.services p{
+    width: 40%;
+    font-size: 13px;
+}
+
+.container{
+    height: 80%;
+    width: 100%;
+    padding: 20px 60px;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+.elem{
+    padding: 25px;
+    height: 200px;
+    flex-shrink: 0;
+    width: 49%;
+    border: 3px solid black;
+    border-radius: 40px;
+    box-shadow: 0px 13px 0px black;
+    display: flex;
+}
+
+.elem-part1{
+    height: 100%;
+    width: 50%;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    flex-direction: column;
+}
+.elem-part2{
+    height: 100%;
+    width: 50%;
+    border-radius: 14px;
+    position: relative;
+}
+.elem-part2 img{
+    height: 100%;
+    position: absolute;
+    right: 30px;
+}
+.elem-part1 h2{
+    background: #9ae975;
+    font-size: 2vw;
+    width: 77%;
+    padding: 0px 5px;
+    border-radius:5px;
+    font-family: china;
+}
+.elem-part1 h4{
+    font-size: 20px;
+    font-weight: 900;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    gap: 8px;
+}
+
+.elem-part1 h4 i{
+    background: #000;
+    border-radius: 50%;
+    color:#fff;
+    padding: 10px;
+}
+.black{
+    background: #000000ea;
+    color: #fff;
+}
+.black h2{
+    background: #fff;
+    color: #000;
+}
+.black h4 i {
+    background: #fff;
+    color: #000;
+}
