@@ -352,7 +352,7 @@ footer {
     display: none;
 }
 
-/* @media (max-width:600px) {
+@media (max-width:600px) {
     body {
         overflow: hidden;
     }
@@ -436,4 +436,4 @@ footer {
     footer{
         display: none;
     }
-} */
+}
