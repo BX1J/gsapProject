@@ -3,9 +3,17 @@ sec2Animation();
 sec3Animation();
 ftrAnimation();
 circleChaptaKaroo();
+getCursorBigger4Hs();
 
 function sec1Animation() {
   var tl = gsap.timeline();
+
+  tl.from(".section1 .part2 i",{
+    y: -30,
+    opacity: 0,
+    delay: 0.3,
+    duration: 0.7,
+  },"runalong")
 
   tl.from("nav h1,nav h4, nav button", {
     y: -30,
@@ -13,7 +21,7 @@ function sec1Animation() {
     delay: 0.3,
     duration: 0.7,
     stagger: 0.15,
-  });
+  },"runalong");
 
   tl.from(
     ".center-part-1 h1",
@@ -234,7 +242,8 @@ function circleMouseFollower(xscale, yscale) {
   });
 }
 
-const h2s = document.querySelectorAll("h2");
+function getCursorBigger4Hs(){
+  const h2s = document.querySelectorAll("h2");
 
 h2s.forEach((h2) => {
   h2.addEventListener("mouseenter", function () {
@@ -256,3 +265,5 @@ h2s.forEach((h2) => {
     });
   });
 });
+
+}

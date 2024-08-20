@@ -2,53 +2,60 @@
     font-family: china;
     src: url(./NeueMachina-Light_gwWCZxVuQl.woff2);
 }
-*{
-    margin:0;
-    padding:0;
+
+* {
+    margin: 0;
+    padding: 0;
     box-sizing: border-box;
     font-family: poppins;
 }
-body,html{
+
+body,
+html {
     width: 100%;
     height: 100%;
 }
-body{
+
+body {
     overflow-x: hidden;
 }
-section{
+
+section {
     height: 100%;
     width: 100%;
     position: relative;
 }
 
-nav{
+nav {
     display: flex;
     align-items: center;
     justify-content: space-between;
     padding: 20px 60px;
 }
-.part2{
+
+.part2 {
     display: flex;
     align-items: center;
     justify-content: center;
     gap: 50px;
 }
 
-nav h1{
+nav h1 {
     font-size: 30px;
 }
-nav h1 i{
+
+nav h1 i {
     rotate: 45deg;
     font-size: 2.5vw;
     display: inline-block;
 }
 
-nav h4{
+nav h4 {
     font-size: 15px;
     font-weight: 500;
 }
 
-nav button{
+nav button {
     padding: 15px 30px;
     font-size: 18px;
     border-radius: 10px;
@@ -57,61 +64,65 @@ nav button{
     background-color: transparent;
 }
 
-.center{
+.center {
     padding: 20px 60px;
     height: 80%;
     width: 100%;
     display: flex;
 }
 
-.center-part-1{
+.center-part-1 {
     height: 100%;
     width: 40%;
 }
 
-.center .center-part-1 h1{
+.center .center-part-1 h1 {
     font-size: 50px;
     font-family: china;
-    line-height: 1.2;    
+    line-height: 1.2;
 }
-.center-part-1 p{
+
+.center-part-1 p {
     font-size: 15px;
     width: 95%;
     margin-top: 25px;
 }
 
-.center-part-1 button{
+.center-part-1 button {
     background: #000;
     cursor: pointer;
-    color:#fff;
+    color: #fff;
     border: none;
     border-radius: 8px;
     padding: 8px 18px;
     font-size: 15px;
     margin-top: 15px;
 }
-.globalBtn{
+
+.globalBtn {
     background: #000;
     cursor: pointer;
-    color:#fff;
+    color: #fff;
     border: none;
     border-radius: 8px;
     padding: 8px 18px;
     font-size: 15px;
     margin-top: 15px;
 }
-.center-part-2{
+
+.center-part-2 {
     height: 100%;
     width: 60%;
     position: relative;
 }
-.center-part-2 img{
+
+.center-part-2 img {
     position: absolute;
-    right:0;
+    right: 0;
     height: 100%;
 }
 
-.section1btm{
+.section1btm {
     position: absolute;
     bottom: 0;
     left: 60px;
@@ -121,7 +132,8 @@ nav button{
     justify-content: space-between;
     height: 20%;
 }
-.section1btm img{
+
+.section1btm img {
     display: flex;
     align-items: center;
     justify-self: space-between;
@@ -129,7 +141,8 @@ nav button{
     padding: 10px 30px;
     height: 60px;
 }
-.section2 .services{
+
+.section2 .services {
     padding: 20px 80px;
     display: flex;
     align-items: center;
@@ -137,7 +150,8 @@ nav button{
     gap: 25px;
     margin-top: 90px;
 }
-.services h2{
+
+.services h2 {
     background-color: #9ae975;
     font-weight: 900;
     padding: 3px 10px 3px 10px;
@@ -145,12 +159,13 @@ nav button{
     border-radius: 5px;
     font-size: 2vw;
 }
-.services p{
+
+.services p {
     width: 40%;
     font-size: 13px;
 }
 
-.container{
+.container {
     height: 80%;
     width: 100%;
     padding: 20px 60px;
@@ -158,7 +173,8 @@ nav button{
     justify-content: space-between;
     flex-wrap: wrap;
 }
-.elem{
+
+.elem {
     padding: 25px;
     height: 200px;
     flex-shrink: 0;
@@ -169,7 +185,7 @@ nav button{
     display: flex;
 }
 
-.elem-part1{
+.elem-part1 {
     height: 100%;
     width: 50%;
     display: flex;
@@ -177,26 +193,30 @@ nav button{
     align-items: flex-start;
     flex-direction: column;
 }
-.elem-part2{
+
+.elem-part2 {
     height: 100%;
     width: 50%;
     border-radius: 14px;
     position: relative;
 }
-.elem-part2 img{
+
+.elem-part2 img {
     height: 100%;
     position: absolute;
     right: 30px;
 }
-.elem-part1 h2{
+
+.elem-part1 h2 {
     background: #9ae975;
     font-size: 2vw;
     width: 77%;
     padding: 0px 5px;
-    border-radius:5px;
+    border-radius: 5px;
     font-family: china;
 }
-.elem-part1 h4{
+
+.elem-part1 h4 {
     font-size: 20px;
     font-weight: 900;
     cursor: pointer;
@@ -205,30 +225,34 @@ nav button{
     gap: 8px;
 }
 
-.elem-part1 h4 i{
+.elem-part1 h4 i {
     background: #000;
     border-radius: 50%;
-    color:#fff;
+    color: #fff;
     padding: 10px;
 }
-.black{
+
+.black {
     background: #000000ea;
     color: #fff;
 }
-.black h2{
+
+.black h2 {
     background: #fff;
     color: #000;
 }
+
 .black h4 i {
     background: #fff;
     color: #000;
 }
-.section3{
-    padding:20px 60px;
-    
+
+.section3 {
+    padding: 20px 60px;
+
 }
 
-.section3 .container{
+.section3 .container {
     padding: 40px 40px;
     margin-top: 40px;
     background: #cccccc50;
@@ -237,19 +261,21 @@ nav button{
     justify-content: space-between;
     height: 350px;
     border-radius: 15px;
-    border:3px solid #ccc;
+    border: 3px solid #ccc;
     box-shadow: 0px 10px 0px #ccc;
 }
-.container .rgt{
+
+.container .rgt {
     width: 60%;
 }
-.container .rgt h2{
+
+.container .rgt h2 {
     font-size: 3vw;
-    line-height:5vw;
+    line-height: 5vw;
     letter-spacing: 2px;
 }
 
-.caseStudy{
+.caseStudy {
     padding: 20px 20px;
     display: flex;
     align-items: center;
@@ -257,7 +283,8 @@ nav button{
     gap: 25px;
     margin-top: 90px;
 }
-.caseStudy h2{
+
+.caseStudy h2 {
     background-color: #9ae975;
     font-weight: 900;
     padding: 3px 10px 3px 10px;
@@ -265,18 +292,20 @@ nav button{
     border-radius: 5px;
     font-size: 2vw;
 }
-.caseStudy p{
+
+.caseStudy p {
     width: 40%;
     font-size: 13px;
 }
-footer{
-    padding:20px 60px;
-    /* height: 400px; */
+
+footer {
+    padding: 20px 60px;
+
 }
-#outer{
+
+#outer {
     background: #000;
     color: #fff;
-    /* height: 350px; */
     border-radius: 30px;
     display: flex;
     align-items: center;
@@ -284,27 +313,31 @@ footer{
     padding: 40px 40px;
     gap: 50px;
 }
-.ftrelems p{
+
+.ftrelems p {
     font-size: 13x;
-    margin-bottom:15px;
+    margin-bottom: 15px;
 }
-.ftrelems a{
+
+.ftrelems a {
     text-decoration: none;
     color: #9ae975;
     padding-top: 50px;
 }
-#cntrone{
-    border-left:1px solid white;
-    border-right:1px solid white;
+
+#cntrone {
+    border-left: 1px solid white;
+    border-right: 1px solid white;
     padding-left: 25px;
 }
-#ftrP{
+
+#ftrP {
     text-align: center;
     margin-top: 15px;
     margin-bottom: -10px;
 }
 
-#cursor{
+#cursor {
     transition: transform .5s cubic-bezier(0.19, 1, 0.22, 1);
     width: 12px;
     height: 12px;
@@ -314,3 +347,93 @@ footer{
     background-color: #000;
     display: none;
 }
+
+.part2 i {
+    display: none;
+}
+
+/* @media (max-width:600px) {
+    body {
+        overflow: hidden;
+    }
+
+    .section1 nav h4,
+    button {
+        display: none;
+    }
+
+    .part2 i {
+        display: inline-block;
+        font-size: 20px;
+    }
+
+    .center {
+        flex-direction: column;
+        padding: 20px 20px
+    }
+
+    nav {
+        padding: 20px 20px;
+    }
+
+    nav h1 i {
+        font-size: 30px;
+    }
+
+    .center .center-part-1 {
+        height: 60%;
+        width: 100%;
+    }
+
+    .center .center-part-1 h1 {
+        font-size: 35px;
+        line-height: 35px;
+        margin-bottom: -15px;
+    }
+
+    .center .center-part-1 p {
+        font-size: 12px;
+    }
+
+    .center .center-part-2 {
+        height: 40%;
+        width: 100%;
+        position: relative;
+
+    }
+
+    .center-part-2 img {
+        height: 100%;
+        width: auto;
+        left: 15%;
+    }
+
+    .section1btm {
+        display: none;
+    }
+    .section2 .services{
+        padding: 20px 20px;
+        margin-top: 0;
+        justify-content: center;
+        flex-direction: column;
+        align-items: center;
+        height: 20%;
+    }
+    .services h2{
+        font-size: 22px;
+    }
+    .services p{
+        width: 100%;
+        text-align: center;	
+    }
+    .container{
+        height: 100vh;
+        background: crimson;
+    }
+    .elem img{
+        display: none;
+    }
+    footer{
+        display: none;
+    }
+} */
