@@ -303,3 +303,14 @@ footer{
     margin-top: 15px;
     margin-bottom: -10px;
 }
+
+#cursor{
+    transition: transform .5s cubic-bezier(0.19, 1, 0.22, 1);
+    width: 12px;
+    height: 12px;
+    position: fixed;
+    z-index: 99999;
+    border-radius: 50%;
+    background-color: #000;
+    display: none;
+}
