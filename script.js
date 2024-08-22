@@ -7,7 +7,7 @@ getCursorBigger4Hs();
 
 function sec1Animation() {
   var tl = gsap.timeline();
-
+  
   tl.from(".section1 .part2 i",{
     y: -30,
     opacity: 0,
@@ -265,5 +265,5 @@ h2s.forEach((h2) => {
     });
   });
 });
-
-}
+};
+//the fun part hehe
